@@ -1,0 +1,28 @@
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 630px;
+    height: 205px;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+.image{
+    height:150px;
+}
+.description-side{
+    border-left-style: dotted;
+}
+@media only screen and (max-width: 600px) {
+    .image{
+        height: 110px;
+        width: 110px;
+    }
+    .card1{
+        height: 230px;
+    }
+    .description-side{
+        border-left-style:unset;
+    }
+  }
