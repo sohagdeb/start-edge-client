@@ -10,7 +10,7 @@ const DisplayReviews = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div className=' text-center'>
+        <div className=' text-center mt-5'>
             <h1>Reviews</h1>
             <div className="container overflow-hidden">
 

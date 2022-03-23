@@ -15,7 +15,7 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light navbar-Color">
                 <div className="container-fluid">
-                    <a className="navbar-brand fs-2 animate__animated animate__flip" to='/home'><span className='text-danger'>STAR</span><span className='text-warning'>EDGE</span></a>
+                    <Link className="navbar-brand fs-2 animate__animated animate__flip" to='/home'><span className='text-danger'>STAR</span><span className='text-warning'>EDGE</span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

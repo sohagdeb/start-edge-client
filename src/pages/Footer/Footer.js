@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <footer class="text-center text-lg-start text-white" style={{ backgroundColor: '#929fba' }} >
+            <footer class="text-center text-lg-start text-white" style={{ backgroundColor: 'purple' }} >
 
                 <div class="container p-4 pb-0">
 
